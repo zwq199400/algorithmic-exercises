@@ -19,7 +19,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{5, 2, 1, 7, 6, 5, 8};
+        int[] arr = new int[]{5, 7, 1, 7, 6, 5, 8};
         quickSort(arr, 0, arr.length - 1);
 
         for (int a : arr) {
