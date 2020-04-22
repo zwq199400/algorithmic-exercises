@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author zhouwq
@@ -70,9 +67,48 @@ public class test {
 
     }
 
+    public static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
+    static List<Integer> numList = new ArrayList<Integer>();
+
+    public static ListNode deleteDuplicates(ListNode head) {
+
+        if (head != null) {
+            if (numList.contains(head.val)) {
+                head = head.next;
+            } else {
+                numList.add(head.val);
+            }
+            deleteDuplicates(head.next);
+        }
+        return head;
+    }
+
+    public static void merge(int[] nums1, int m, int[] nums2, int n) {
+        int x = 0,y = 0,idx = 0;
+        int[] result = new int[nums1.length];
+        while (x < m && y < n) {
+            result[idx++] = nums1[x] < nums2[y] ? nums1[x++] : nums2[y++];
+        }
+        while (x < m) {
+            result[idx++] = nums1[x++];
+        }
+        while (y < n) {
+            result[idx++] = nums2[y++];
+        }
+
+        System.arraycopy(result, 0, nums1, 0, nums1.length);
+    }
+
+
     public static void main(String[] args) {
-        int[] arr = new int[]{0,1,2,2,3,0,4,2};
-        int a = removeElement(arr, 2);
+//        int[] nums1 = {1,2,3,0,0,0};
+        int[] nums1 = {1};
+        int[] nums2 = {};
+        merge(nums1, 1, nums2, 0);
         System.out.println();
     }
 
