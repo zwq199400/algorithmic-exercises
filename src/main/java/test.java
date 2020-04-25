@@ -67,11 +67,6 @@ public class test {
 
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
     static List<Integer> numList = new ArrayList<Integer>();
 
     public static ListNode deleteDuplicates(ListNode head) {
@@ -112,5 +107,12 @@ public class test {
         System.out.println();
     }
 
+}
+
+
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
 }
 
