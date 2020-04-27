@@ -40,12 +40,35 @@ public class CopyWithRandom {
             hashNode.put(curNode, newCopyNode);
             curNode = curNode.next;
         }
-        RandomNode result = listNode;
-        while (result != null) {
-            result.next = hashNode.get(result);
-            result.rand = hashNode.get(result);
+        RandomNode result = new RandomNode(listNode.value);
+        RandomNode temp = result;
+        while (listNode != null) {
+            temp.next = hashNode.get(listNode.next);
+            temp.rand = hashNode.get(listNode.rand);
             listNode = listNode.next;
-            result.next = result;
+            temp = temp.next;
+        }
+        return result;
+
+    }
+
+    private static RandomNode copyListNode2(RandomNode listNode) {
+        //新旧节点对象映射关系
+        Map<RandomNode, RandomNode> hashNode = new HashMap<>(1 << 4);
+
+        RandomNode curNode = listNode;
+        while (curNode != null) {
+            RandomNode newCopyNode = new RandomNode(curNode.value);
+            hashNode.put(curNode, newCopyNode);
+            curNode = curNode.next;
+        }
+        RandomNode result = new RandomNode(listNode.value);
+        RandomNode temp = result;
+        while (listNode != null) {
+            temp.next = hashNode.get(listNode.next);
+            temp.rand = hashNode.get(listNode.rand);
+            listNode = listNode.next;
+            temp = temp.next;
         }
         return result;
 
