@@ -32,7 +32,7 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 7, 7, 4, 3, 8, 1};
+        int[] arr = {5,1,3,2,8,7,6};
         heapInsert(arr);
         int size = arr.length;
         swap(arr, 0, --size);
