@@ -1,3 +1,5 @@
+import util.ListNode;
+
 public class TowLinkedListIntersect {
     public static void main(String[] args) {
         //两个单链表相交的一系列问题

@@ -1,3 +1,5 @@
+import util.ListNode;
+
 public class MergeLinkedList {
 
     public static void main(String[] args) {

@@ -27,27 +27,27 @@
 //
 //
 //    class Solution {
-//        class TreeNode {
+//        class util.TreeNode {
 //            int val;
-//            TreeNode left;
-//            TreeNode right;
+//            util.TreeNode left;
+//            util.TreeNode right;
 //
-//            TreeNode(int x) {
+//            util.TreeNode(int x) {
 //                val = x;
 //            }
 //        }
 //
 //        private int minResult;
 //
-//        public int getMinimumDifference(TreeNode root) {
+//        public int getMinimumDifference(util.TreeNode root) {
 //
 //            int min = 0;
 //        }
 //
-//        private int getMin(TreeNode root, int min){
+//        private int getMin(util.TreeNode root, int min){
 //            int nowMin = 0;
-//            TreeNode leftNode = root.left;
-//            TreeNode rightNode = root.right;
+//            util.TreeNode leftNode = root.left;
+//            util.TreeNode rightNode = root.right;
 //            if(leftNode == null && rightNode == null){
 //                return min;
 //            }
