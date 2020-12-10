@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03457148-78db-4f8b-96ce-b9df84323ccd" name="Default Changelist" comment="feat: first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GenerateTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GetMedian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
+    <list default="true" id="03457148-78db-4f8b-96ce-b9df84323ccd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test47.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,23 +79,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test46">
+  <component name="RunManager" selected="Application.Test40">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Divide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.Divide" />
-      <module name="algorithmic-exercises" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,6 +108,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test40" />
+      <module name="algorithmic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test46" />
       <module name="algorithmic" />
@@ -133,15 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="Test47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test47" />
+      <module name="algorithmic" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.test" />
-      <module name="algorithmic-exercises" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test40" />
+        <item itemvalue="Application.Test47" />
         <item itemvalue="Application.Test46" />
         <item itemvalue="Application.Test39" />
         <item itemvalue="Application.SearchRange" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Divide" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +302,8 @@
       <workItem from="1597281572997" duration="601000" />
       <workItem from="1607434445167" duration="937000" />
       <workItem from="1607479506293" duration="4786000" />
-      <workItem from="1607521768864" duration="1870000" />
+      <workItem from="1607521768864" duration="2559000" />
+      <workItem from="1607602156907" duration="2066000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <created>1571229889590</created>
@@ -355,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593741554267</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Test46">
+      <created>1607524036382</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607524036382</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,41 +367,50 @@
     <MESSAGE value="feat: 最小代价分割（堆的应用）" />
     <MESSAGE value="feat: 二叉树的前序中序后序遍历" />
     <MESSAGE value="feat: 练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 练习" />
+    <MESSAGE value="feat: Test46" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Test46" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="337" key="GridCell.Tab.0.bottom" timestamp="1607523720856">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1607524035292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607523720856" />
-    <state width="1877" height="337" key="GridCell.Tab.0.center" timestamp="1607523720856">
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607524035292" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607604241044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607523720856" />
-    <state width="1877" height="337" key="GridCell.Tab.0.left" timestamp="1607523720855">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607604241044" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607604241044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607523720855" />
-    <state width="1877" height="337" key="GridCell.Tab.0.right" timestamp="1607523720856">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607604241044" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607604241044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607523720856" />
-    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1607523718948">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607604241044" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607604241044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607523718948" />
-    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1607523718948">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607604241044" />
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1607525457210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607523718948" />
-    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1607523718948">
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607525457210" />
+    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1607525457210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607523718948" />
-    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1607523718948">
+    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607525457210" />
+    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1607525457209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607523718948" />
+    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607525457209" />
+    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1607525457210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607525457210" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607524039139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607524039139" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
